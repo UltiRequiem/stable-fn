@@ -14,6 +14,6 @@ Deno.test("[stableFunction]", () => {
       }
 
       return "foo";
-    })
+    }),
   );
 });

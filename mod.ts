@@ -13,7 +13,7 @@
  */
 export function stableFunction(
   testFunction: () => unknown,
-  count = 1000
+  count = 1000,
 ): boolean {
   const first = testFunction();
 
