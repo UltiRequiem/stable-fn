@@ -1,6 +1,6 @@
 # stable-fn
 
-[![CI](https://github.com/UltiRequiem/stable_fn/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/stable_fn/actions/workflows/ci.yaml)
+[![CI](https://github.com/UltiRequiem/stable-fn/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/stable-fn/actions/workflows/ci.yaml)
 [![codecov](https://codecov.io/gh/ultirequiem/stable_fn/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/stable_fn)
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/stable_fn/mod.ts)
 
