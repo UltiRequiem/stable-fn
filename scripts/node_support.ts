@@ -9,7 +9,7 @@ const publisher = {
 
 const packageConfig = {
   name: "@ultirequiem/stable-fn",
-  repoName: "is-number",
+  repoName: "stable-fn",
   version: "1.0.0",
   description: "Ensure the same input always produces the same output",
   keywords: ["testing", "assert"],
