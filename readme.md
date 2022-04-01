@@ -1,12 +1,7 @@
 # stable-fn
 
-[![CI](https://github.com/UltiRequiem/stable-fn/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/stable-fn/actions/workflows/ci.yaml)
 [![codecov](https://codecov.io/gh/ultirequiem/stable-fn/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/stable-fn)
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/stable_fn/mod.ts)
-
-![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fdep-count%2Fx%2Fstable_fn%2Fmod.ts)
-![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fx%2Fstable_fn%2Fmod.ts)
-[![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Flatest-version%2Fx%2Fstable_fn%2Fmod.ts)](https://deno.land/x/stable_fn)
 
 > Ensure the same input always produces the same output.
 
