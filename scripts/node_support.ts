@@ -1,4 +1,4 @@
-import { build } from "https://deno.land/x/dnt@0.27.0/mod.ts";
+import { build } from "https://deno.land/x/dnt@0.29.1/mod.ts";
 
 const publisher = {
   name: "Eliaz Bobadilla",
