@@ -1,6 +1,6 @@
 import { stableFunction } from "./mod.ts";
 
-import { assert } from "https://deno.land/std@0.204.0/testing/asserts.ts";
+import { assert } from "https://deno.land/std@0.224.0/testing/asserts.ts";
 
 Deno.test("[stableFunction]", () => {
   assert(stableFunction(() => true));
