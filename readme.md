@@ -18,7 +18,7 @@ npm install @ultirequiem/stable-fn
 
 ## Usage
 
-ESM only: the same import works in Node.js, Bun and browsers.
+ESM only, types included: the same import works in Node.js, Bun and browsers.
 
 ```typescript
 import { stableFunction } from "@ultirequiem/stable-fn";
