@@ -1,6 +1,6 @@
 # stable-fn
 
-Ensure the same input always produces the same output.
+Wrap a function so the same input always returns the same output.
 
 [![npm](https://img.shields.io/npm/v/@ultirequiem/stable-fn?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/stable-fn)
 [![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/stable-fn?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/stable-fn)
