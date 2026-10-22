@@ -18,7 +18,7 @@ npm install @ultirequiem/stable-fn
 
 ## Usage
 
-### [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/stable-fn)
+ESM only: the same import works in Node.js, Bun and browsers.
 
 ```typescript
 import { stableFunction } from "@ultirequiem/stable-fn";
@@ -27,25 +27,6 @@ import { randomItem } from "@ultirequiem/stable-fn";
 stableFunction(() => true); //=> true
 stableFunction(() => randomItem(["a", "b", "c"])); //=> false
 ```
-
-### Browser
-
-Using
-[type module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
-🍱
-
-- [esm.sh](https://esm.sh/@ultirequiem/stable-fn)
-
-- [skypack](https://cdn.skypack.dev/@ultirequiem/stable-fn)
-
-Using a plain
-[script tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) 👇
-
-- [jsdelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/stable-fn)
-
-- [unpkg](https://unpkg.com/@ultirequiem/stable-fn)
-
-You have the same API on all of this platforms.
 
 ## Support
 
