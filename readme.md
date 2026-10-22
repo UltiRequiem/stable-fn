@@ -1,11 +1,11 @@
 # stable-fn
 
+Ensure the same input always produces the same output.
+
 [![npm](https://img.shields.io/npm/v/@ultirequiem/stable-fn?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/stable-fn)
 [![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/stable-fn?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/stable-fn)
 [![CI](https://github.com/UltiRequiem/stable-fn/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/stable-fn/actions/workflows/ci.yaml)
 [![codecov](https://codecov.io/gh/UltiRequiem/stable-fn/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/stable-fn)
-
-> Ensure the same input always produces the same output.
 
 Useful for stress testing functions in your unit tests to make sure their
 behaviors are consistent.
