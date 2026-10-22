@@ -1,6 +1,9 @@
 # stable-fn
 
-[![codecov](https://codecov.io/gh/ultirequiem/stable-fn/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/stable-fn)
+[![npm](https://img.shields.io/npm/v/@ultirequiem/stable-fn?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/stable-fn)
+[![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/stable-fn?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/stable-fn)
+[![CI](https://github.com/UltiRequiem/stable-fn/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/stable-fn/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/UltiRequiem/stable-fn/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/stable-fn)
 
 > Ensure the same input always produces the same output.
 
@@ -10,16 +13,16 @@ behaviors are consistent.
 ## Install
 
 ```sh
-npm install stable-fn
+npm install @ultirequiem/stable-fn
 ```
 
 ## Usage
 
-### [Node.js 🐢🚀](https://npmjs.com/package/stable-fn)
+### [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/stable-fn)
 
 ```typescript
-import { stableFunction } from "stable-fn";
-import { randomItem } from "stable-fn";
+import { stableFunction } from "@ultirequiem/stable-fn";
+import { randomItem } from "@ultirequiem/stable-fn";
 
 stableFunction(() => true); //=> true
 stableFunction(() => randomItem(["a", "b", "c"])); //=> false
@@ -51,12 +54,12 @@ You have the same API on all of this platforms.
 
 ## Support
 
-Open an Issue, I will check it a soon as possible 👀
+Open an Issue, I will check it as soon as possible 👀
 
 If you want to hurry me up a bit
 [send me a tweet](https://twitter.com/intent/tweet?text=%40UltiRequiem%20) 😆
 
-Don't forget to start the repo ⭐
+Don't forget to star the repo ⭐
 
 ## Licence
 
