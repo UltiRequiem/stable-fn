@@ -1,7 +1,7 @@
 {
   "name": "@ultirequiem/stable-fn",
   "version": "0.0.0-development",
-  "description": "",
+  "description": "Wrap a function so the same input always returns the same output.",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -17,7 +17,13 @@
   "engines": {
     "node": ">=20"
   },
-  "keywords": [],
+  "keywords": [
+    "pure",
+    "deterministic",
+    "function",
+    "esm",
+    "typescript"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
