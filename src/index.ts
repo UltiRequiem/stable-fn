@@ -7,7 +7,7 @@
  *
  * @example
  * ```javascript
- * import { stableFunction } from "https://deno.land/x/stable_fn/mod.ts";
+ * import { stableFunction } from "@ultirequiem/stable-fn";
  * stableFunction(() => true); //=> true
  * ```
  */

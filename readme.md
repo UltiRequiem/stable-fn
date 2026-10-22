@@ -1,29 +1,28 @@
 # stable-fn
 
 [![codecov](https://codecov.io/gh/ultirequiem/stable-fn/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/stable-fn)
-[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/stable_fn/mod.ts)
 
 > Ensure the same input always produces the same output.
 
 Useful for stress testing functions in your unit tests to make sure their
 behaviors are consistent.
 
+## Install
+
+```sh
+npm install stable-fn
+```
+
 ## Usage
 
-### [Deno 🚀](https://deno.land/x/stable_fn)
+### [Node.js 🐢🚀](https://npmjs.com/package/stable-fn)
 
 ```typescript
-import { stableFunction } from "https://deno.land/x/stable_fn/mod.ts";
-import { randomItem } from "https://deno.land/x/random_item/mod.ts";
+import { stableFunction } from "stable-fn";
+import { randomItem } from "stable-fn";
 
 stableFunction(() => true); //=> true
 stableFunction(() => randomItem(["a", "b", "c"])); //=> false
-```
-
-### [Node.js 🐢](https://www.npmjs.com/package/@ultirequiem/stable-fn)
-
-```ts
-import { stableFunction } from "@ultirequiem/stable-fn";
 ```
 
 ### Browser
@@ -56,9 +55,6 @@ Open an Issue, I will check it a soon as possible 👀
 
 If you want to hurry me up a bit
 [send me a tweet](https://twitter.com/intent/tweet?text=%40UltiRequiem%20) 😆
-
-Consider [supporting me on Patreon](https://patreon.com/UltiRequiem) if you like
-my work 🚀
 
 Don't forget to start the repo ⭐
 
